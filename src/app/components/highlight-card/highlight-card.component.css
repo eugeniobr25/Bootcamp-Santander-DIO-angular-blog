@@ -1,0 +1,35 @@
+.container__highlight-card {
+  display: flex;
+  justify-content: space-around;
+  background-color: #EEE3F3;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.highlight-card_img {
+  display: flex;
+  align-items: center;
+}
+
+.highlight-card_img>img {
+  width: 500px;
+  height: 300px;
+  margin: 20px 30px 20px 30px;
+  border-radius: 30px;
+}
+
+.highlight-card_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 60px 20px 30px;
+}
+
+.highlight-card_title_h1 {
+  color: #514F5A;
+  font-size: 20px;
+}
+
+.highlight-card_descripton {
+  color: #85888D;
+}

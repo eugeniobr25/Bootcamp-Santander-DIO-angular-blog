@@ -1,0 +1,60 @@
+.container__facilities-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.facilities-card_container_title{
+  display: flex;
+  align-items: center;
+  margin: 20px 30px 20px 30px;
+}
+
+.facilities-card_container_title_h1 {
+  color: #514F5A;
+  font-size: 15px;
+}
+
+.facilities-card_container_title_description {
+  color: #85888D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 30px 20px 150px;
+}
+
+.facilities-card_container_highlights {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.facilities-card_container_highlights_mini-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.facilities-card_container_highlights_mini-card_img > img {
+  width: 200px;
+  height: 200px;
+  margin: 20px 30px 20px 30px;
+}
+
+.facilities-card_container_highlights_mini-card_title {
+  color: #514F5A;
+  font-size: 10px;
+}
+
+.facilities-card_container_highlights_mini-card_description {
+  color: #85888D;
+  font-size: 12px;
+  display: flex;
+  margin: 20px 40px 30px 40px;
+}
